@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link
+      rel="stylesheet"
+      href="../node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      #container {
+        background-image: url("../assets/bg-nature.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+      }
+
+      @media only screen and (max-width: 512px) {
+        #brand {
+          display: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+    <!-- Navbar -->
+      <div
+        class="bg-dark shadow-lg d-flex align-items-center p-2 justify-content-between"
+        style="width: 100%; height: 35px"
+      >
+        <div id="brand" class="text-white" style="font-weight: bold">
+          Ihsan Hadi Pratama
+        </div>
+        <ul class="d-flex flex-row list-unstyled my-auto">
+          <li>
+            <a class="text-decoration-none text-white p-2" href="index.html">Home</a>
+          </li>
+          <li>
+            <a class="text-decoration-none text-white p-2" href="about.html">About</a>
+          </li>
+          <li>
+            <a class="text-decoration-none text-white p-2" href="#">Gallery</a>
+          </li>
+          <li>
+            <a class="text-decoration-none text-white p-2" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <!-- /Navbar -->
+      <div
+        class="container-lg bg-dark mt-5 rounded-2"
+        style="width: 100%; height: 65vh"
+      >
+        <div class="d-flex flex-column text-white mx-auto">
+          <h1>Home</h1>
+          <p class="text-justify my-auto">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Consectetur dolore corrupti eligendi, totam accusantium eaque
+            molestiae at nulla vel neque voluptatem modi quasi nihil ducimus,
+            sapiente libero laboriosam distinctio hic. Temporibus qui facere
+            rerum nulla iure corporis quas rem nostrum, in, suscipit sapiente
+            culpa provident harum quae nobis autem minus.
+          </p>
+        </div>
+        <div class="container">
+          <ul id="home-content" class="row list-unstyled my-4 border-top p-2">
+            <li class="col-6 col-md-3 mb-3">
+              <div
+                class="rounded d-flex align-items-center justify-content-center"
+              >
+                <a class="btn btn-danger text-decoration-none text-white p-2" style="padding: 20; width: 200px;" href="index.html">Home</a>
+              </div>
+            </li>
+            <li class="col-6 col-md-3 mb-3">
+              <div
+                class="rounded d-flex align-items-center justify-content-center"
+              >
+                <a class="btn btn-success text-decoration-none text-white p-2" style="padding: 20; width: 200px;" href="about.html"
+                  >About</a
+                >
+              </div>
+            </li>
+            <li class="col-6 col-md-3 mb-3">
+              <div
+                class="rounded d-flex align-items-center justify-content-center text-dark"
+              >
+                <a class="text-decoration-none text-white p-2 btn btn-warning" style="padding: 20px; width: 200px;" href="#"
+                  >Gallery</a
+                >
+              </div>
+            </li>
+            <li class="col-6 col-md-3 mb-3">
+              <div
+                class="d-flex align-items-center justify-content-center"
+              >
+                <a class="btn btn-primary text-decoration-none text-white p-2" style="padding: 20px; width: 200px;" href="#"
+                  >Contact</a
+                >
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
