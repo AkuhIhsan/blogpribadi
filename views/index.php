@@ -1,3 +1,13 @@
+<?php 
+session_start();
+
+require '../functions/functions.php';
+
+if (!isset($_SESSION["login"])) {
+    header("Location: login.php");
+    exit;
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -43,12 +53,12 @@
     <!-- Navbar -->
       <div
         class="bg-dark shadow-lg d-flex align-items-center p-2 justify-content-between"
-        style="width: 100%; height: 35px"
+        style="width: 100%; height: 45px"
       >
         <div id="brand" class="text-white" style="font-weight: bold">
           Ihsan Hadi Pratama
         </div>
-        <ul class="d-flex flex-row list-unstyled my-auto">
+        <ul class="d-flex flex-row list-unstyled align-items-center pt-3">
           <li>
             <a class="text-decoration-none text-white p-2" href="index.html">Home</a>
           </li>
@@ -60,6 +70,9 @@
           </li>
           <li>
             <a class="text-decoration-none text-white p-2" href="contact.html">Contact</a>
+          </li>
+          <li>
+            <a class="text-decoration-none text-danger p-2" href="logout.php">Logout</a>
           </li>
         </ul>
       </div>
