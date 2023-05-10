@@ -54,16 +54,16 @@ if (!isset($_SESSION["login"])) {
     </div>
     <ul class="d-flex flex-row list-unstyled my-auto">
       <li>
-        <a class="text-decoration-none text-white p-2" href="index.html">Home</a>
+        <a class="text-decoration-none text-white p-2" href="index.php">Home</a>
       </li>
       <li>
-        <a class="text-decoration-none text-white p-2" href="about.html">About</a>
+        <a class="text-decoration-none text-white p-2" href="about.php">About</a>
       </li>
       <li>
-        <a class="text-decoration-none text-white p-2" href="gallery.html">Gallery</a>
+        <a class="text-decoration-none text-white p-2" href="gallery.php">Gallery</a>
       </li>
       <li>
-        <a class="text-decoration-none text-white p-2" href="contact.html">Contact</a>
+        <a class="text-decoration-none text-white p-2" href="contact.php">Contact</a>
       </li>
     </ul>
   </div>

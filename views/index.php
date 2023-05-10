@@ -60,16 +60,16 @@ if (!isset($_SESSION["login"])) {
         </div>
         <ul class="d-flex flex-row list-unstyled align-items-center pt-3">
           <li>
-            <a class="text-decoration-none text-white p-2" href="index.html">Home</a>
+            <a class="text-decoration-none text-white p-2" href="index.php">Home</a>
           </li>
           <li>
-            <a class="text-decoration-none text-white p-2" href="about.html">About</a>
+            <a class="text-decoration-none text-white p-2" href="about.php">About</a>
           </li>
           <li>
-            <a class="text-decoration-none text-white p-2" href="#">Gallery</a>
+            <a class="text-decoration-none text-white p-2" href="gallery.php">Gallery</a>
           </li>
           <li>
-            <a class="text-decoration-none text-white p-2" href="contact.html">Contact</a>
+            <a class="text-decoration-none text-white p-2" href="contact.php">Contact</a>
           </li>
           <li>
             <a class="text-decoration-none text-danger p-2" href="logout.php">Logout</a>
@@ -98,14 +98,14 @@ if (!isset($_SESSION["login"])) {
               <div
                 class="rounded d-flex align-items-center justify-content-center"
               >
-                <a class="btn btn-danger text-decoration-none text-white p-2" style="padding: 20; width: 200px;" href="index.html">Home</a>
+                <a class="btn btn-danger text-decoration-none text-white p-2" style="padding: 20; width: 200px;" href="index.php">Home</a>
               </div>
             </li>
             <li class="col-6 col-md-3 mb-3">
               <div
                 class="rounded d-flex align-items-center justify-content-center"
               >
-                <a class="btn btn-success text-decoration-none text-white p-2" style="padding: 20; width: 200px;" href="about.html"
+                <a class="btn btn-success text-decoration-none text-white p-2" style="padding: 20; width: 200px;" href="about.php"
                   >About</a
                 >
               </div>
@@ -114,7 +114,7 @@ if (!isset($_SESSION["login"])) {
               <div
                 class="rounded d-flex align-items-center justify-content-center text-dark"
               >
-                <a class="text-decoration-none text-white p-2 btn btn-warning" style="padding: 20px; width: 200px;" href="gallery.html"
+                <a class="text-decoration-none text-white p-2 btn btn-warning" style="padding: 20px; width: 200px;" href="gallery.php"
                   >Gallery</a
                 >
               </div>
@@ -123,7 +123,7 @@ if (!isset($_SESSION["login"])) {
               <div
                 class="d-flex align-items-center justify-content-center"
               >
-                <a class="btn btn-primary text-decoration-none text-white p-2" style="padding: 20px; width: 200px;" href="#"
+                <a class="btn btn-primary text-decoration-none text-white p-2" style="padding: 20px; width: 200px;" href="contact.php"
                   >Contact</a
                 >
               </div>
